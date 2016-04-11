@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
  * @author Maximilian Schmeller (mtronics_dev)
  */
 public class Utilities {
-    public static int bytesToInt(byte[] bytes) {
+    public static int bytesToInt(byte... bytes) {
         if (bytes.length != 4) {
             byte[] newBytes = new byte[4];
             System.arraycopy(bytes, 0, newBytes, 0, Math.min(bytes.length, newBytes.length));
