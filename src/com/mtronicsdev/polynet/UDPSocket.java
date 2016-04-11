@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author Maximilian Schmeller (mtronics_dev)
  */
-class UDPSocket {
+public class UDPSocket {
     private final Thread rxThread;
     private final Thread txThread;
 

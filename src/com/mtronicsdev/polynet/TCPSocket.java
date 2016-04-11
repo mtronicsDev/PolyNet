@@ -13,7 +13,7 @@ import static com.mtronicsdev.polynet.Utilities.intToBytes;
 /**
  * @author Maximilian Schmeller (mtronics_dev)
  */
-class TCPSocket {
+public class TCPSocket {
     private final Thread rxThread;
     private final Thread txThread;
 
